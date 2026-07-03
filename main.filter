@@ -1,7 +1,9 @@
 ! Title: YouTube Fullscreen Theater Mode
-! Expires: 7 days
+! Expires: 1 days
 ! Description: Forces YouTube's native theater mode to behave as windowed fullscreen.
 
+www.youtube.com##html:has(ytd-watch-flexy[theater]):style(overflow: hidden !important;)
+www.youtube.com##html:has(ytd-watch-grid[theater]):style(overflow: hidden !important;)
 www.youtube.com##body:style(overflow-anchor: none !important;)
 
 www.youtube.com##ytd-masthead[theater]:upward(#masthead-container):style(display: none !important;)

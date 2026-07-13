@@ -16,7 +16,7 @@ www.youtube.com##ytd-watch-grid[theater] #full-bleed-container.ytd-watch-grid:st
 
 www.youtube.com##ytd-watch-flexy[theater] #player-container:style(height: 100vh !important; top: 0 !important; background: #000000 !important;)
 www.youtube.com##ytd-watch-flexy[theater] #ytd-player:style(height: 100vh !important; top: 0 !important; background: #000000 !important;)
-www.youtube.com##ytd-watch-flexy[theater] .html5-video-player:style(height: 100vh !important; min-height: 100vh !important; top: 0 !important; background: #000000 !important;)
+www.youtube.com##ytd-watch-flexy[theater] .html5-video-player, #movie_player:style(position: fixed !important; height: 100vh !important; min-height: 100vh !important; top: 0 !important; background: #000000 !important;)
 
 www.youtube.com##ytd-watch-flexy[theater] #columns:style(padding-top: 0px !important;)
 www.youtube.com##ytd-watch-grid[theater] #columns:style(padding-top: 0px !important;)
